@@ -22,6 +22,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
   	<img height="100" src="logo.jpg" alt="tenxcloud"><br>
-  	<h3 style="margin-left:-20px">Welcome go tenxcloud. </h3>
+  	<h3 style="margin-left:-20px">Welcome to tenxcloud. </h3>
   </body>
 </html>
