@@ -6,14 +6,14 @@ FROM tomcat:8.0
 RUN mkdir /app
 ADD hello/. /app
 
-ADD run.sh /run.sh
+ADD start.sh /start.sh
 
-RUN chmod +x /run.sh
+RUN chmod +x /start.sh
 
 # Expose the container port
 EXPOSE 8080
 
-CMD ["/run.sh"]
+CMD ["/start.sh"]
 
 
 
