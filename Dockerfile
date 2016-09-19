@@ -3,7 +3,8 @@
 FROM tomcat:8.0
 
 # Add war package to the image
-ADD hello/. /root/hello
+RUN mkdir /app
+ADD hello/. /app
 
 ADD run.sh /run.sh
 
